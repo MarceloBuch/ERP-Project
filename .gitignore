@@ -1,0 +1,125 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.pyd
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environment
+.env
+*.env
+*.venv
+*.virtualenv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django stuff:
+*.log
+*.pot
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Sentry DSN file
+.sentryclirc
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+pylint.log
+
+# Bandit
+bandit.log
+
+# Environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pyre type checker
+.pyre/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Heroku
+*.buildpack
+
+# Protobuf
+*.pb.go
+
+# Logs
+*.log
+
+# Local folders
+node_modules/
+*.DS_Store
+Thumbs.db
+.DS_Store
+*.swp
