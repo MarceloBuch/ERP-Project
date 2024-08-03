@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import products
 
-
-def home(request):
-    return render(request, "erp/home.html")
+def ProductsList(request):
+    prods = products.objects.all()
+    return render(request, "erp/products.html", {"products": prods})
